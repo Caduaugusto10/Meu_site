@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Meu Site</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><span class="imagem" >Corinthians<span class="imagem2"> SCCP</span></span></a>
+        <a href="index.html">Inicio</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </header>
+    <h1>Fale conosco</h1>
+
+    <form>
+        <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" required maxlength="100">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@seuemail.com" required >
+
+            <label for="numero">Numero de contato</label>
+            <input type="numero" id="numero" name="numero" placeholder="digite seu numero " minlength="1" maxlength="15" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="descricao" id="descricao" rows="5" placeholder="deixe sua mensagem" maxlength="200" required ></textarea>
+        </fieldset>
+        <button type="submit"> Enviar</button>
+    </form>
+</body>
+</html>

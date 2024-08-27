@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: #e4e4e4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+}
+
+.logo {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo-2{
+    color: rgb(255, 0, 0);
+}
+
+.logo:hover{
+    transform: scale(1.03)
+    
+}
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descricao {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 100px;
+    line-height: 2.0;
+}
+
+.img-escudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.img-escudo img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    margin-right: 200px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.img-escudo img:hover {
+    box-shadow: 0 0 20px rgb(252, 0, 0), 0 0 40px rgb(253, 0, 0), 0 0 60px rgb(255, 0, 0);
+}
+
+.torcida {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 1800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.idolo {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="numero"],
+
+form select,
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    
+}
+form button{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-top: 60px;
+
+}
